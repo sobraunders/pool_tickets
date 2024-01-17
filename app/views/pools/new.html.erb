@@ -1,0 +1,10 @@
+<h1>New Pool</h1>
+
+<%= form_with model: @pool do |f| %>
+    <p>
+        <%= f.label :name %>
+        <%= f.text_field :name %>
+    </p>
+
+    <%= f.submit %>
+<% end %>
